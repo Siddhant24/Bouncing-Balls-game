@@ -8,7 +8,17 @@
 
   <body>
     <h1>bouncing balls</h1>
-    <p>Ball count:<strong id="counter"></strong></p>
+    <p id='count'>Ball count:<strong id="counter"></strong></p>
+    <div id="instructions">
+      <h2>THE BOUNCING BALLS GAME<h2>
+      <h3>How to Play:<h3>
+      <ul>
+        <li>The objective of the game is to capture all the balls.</li>
+        <li>Use the arrow keys on the keyboard to move the cursor.</li>
+        <li>If a ball touches the cursor then it is captured.</li>
+        </ul>
+        <button class="button" onclick='play()'> Click to play </button>
+      </div>
     <canvas></canvas>
 
     <script src="main.js"></script>
