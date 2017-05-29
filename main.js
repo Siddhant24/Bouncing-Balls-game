@@ -186,7 +186,7 @@ function loop() {
     cancelAnimationFrame(myReq);
     counter.innerHTML = ballcount;
     var end = new Date();
-    alert("You won!\n Time taken :" + Math.round((end.getTime() - start.getTime())/1000) + " seconds");
+    alert("You won!\n Time taken : " + Math.round((end.getTime() - start.getTime())/1000) + " seconds");
   }
 }
 var start = new Date();
